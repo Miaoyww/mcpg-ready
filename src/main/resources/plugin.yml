@@ -1,0 +1,10 @@
+name: ready
+version: '${project.version}'
+main: com.miaoyww.ready.Ready
+api-version: '1.20'
+
+commands: 
+  ready:
+    description: Get Ready item
+    usage: /<command>
+    permission: ready.get
